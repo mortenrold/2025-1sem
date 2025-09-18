@@ -1,0 +1,52 @@
+/* her henter jeg en font fra Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+
+
+body {
+    background-color: rgb(244, 184, 133);
+}
+h1 {
+    color: yellowgreen;
+    background-color: lightblue;
+    /* her bruger jeg den nye Google font "Bitcount Ink" */
+    font-family: "Bitcount Ink", helvetica, arial, sans-serif;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 150%;
+    margin: 50px;
+    margin-left: 200px;
+    border: 1px solid #333;
+    padding: 50px;
+}
+a {
+    font-style: italic;
+    letter-spacing: 2px;
+    border: 1px dotted #333;
+    padding: 7px;
+    margin-top: 50px;
+}
+a:link {
+    background-color: lightgoldenrodyellow;
+}
+a:hover {
+    background-color: white;
+}
+a:visited {
+    background-color: rgb(223, 154, 154);
+}
+a:active {
+    background-color: yellow;
+}
+#mortensbox {
+    background: linear-gradient(to right, lightblue, rgb(91, 155, 176));
+    margin-left: 53px;
+    height: 800px;
+    width: 500px;
+}
+a.mortenlink {
+    background-color: turquoise;
+}
