@@ -1,0 +1,25 @@
+/* "reset" */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #ddd;
+    padding: 15px;
+}
+nav {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
+a {
+    font-family: helvetica, arial, sans-serif;
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    color: white;
+}

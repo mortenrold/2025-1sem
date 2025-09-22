@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container div {
+    background: dodgerblue;
+    margin: 10px;
+    padding: 15px;
+}
+.flex-container div {
+    background: yellowgreen;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+.flex-container {
+    display: flex;
+    /* børnene står til højre */
+    justify-content: flex-end;
+}
+.jaevnt {
+    justify-content: space-around;
+}
+.hop-ned {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lodret {
+    flex-direction: column;
+}
+.special {
+    /* !important får den til at overrule andre regler */
+    background: lightcoral !important;
+    /* order flytter barnets placering i hierarkiet */
+    order: -1;
+}
+.my-img {
+    width: 100%;
+}

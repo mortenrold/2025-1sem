@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="flexstyle.css">
+</head>
+<body>
+    <!-- helt almindelige div'er -->
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <!-- div'er med flexbox -->
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <!-- fordelt jævnt -->
+    <div class="flex-container jaevnt">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <!-- hop ned når der ikke er plads -->
+    <div class="flex-container hop-ned">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <!-- børnene under hinanden i stedet for ved siden af hinanden -->
+    <div class="flex-container lodret">
+        <div>1</div>
+        <div class="special">2</div>
+        <div>3</div>
+    </div>
+    <!-- noget med billeder -->
+    <div class="flex-container lodret">
+        <div>
+            <img src="lion.jpg" class="my-img" alt="Statue af løve">
+        </div>
+        <div class="special">2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
