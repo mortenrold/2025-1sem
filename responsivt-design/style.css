@@ -1,0 +1,87 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* standard styles (mobil layout) */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+.logo, .hovedmenu, .undermenu, article, aside, footer {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background: lightblue;
+    height: 60px;
+}
+.hovedmenu {
+    background: lightgoldenrodyellow;
+    height: 60px;
+}
+.undermenu {
+    background: lightcoral;
+    display: none;
+}
+article {
+    background: lightgrey;
+    height: 700px;
+}
+aside {
+    background: orange;
+    display: none;
+}
+footer {
+    background: lightpink;
+    height: 80px;
+}
+
+/* layout til tablets */
+
+@media screen and (min-width: 832px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 18%;
+    }
+    .hovedmenu {
+        width: 78%;
+    }
+    .undermenu {
+        width: 18%;
+        display: flex;
+    }
+    article {
+        width: 78%;
+    }
+    footer {
+        width: 98%;
+    }
+}
+
+/* layout til desktop */
+
+@media screen and (min-width: 1110px) {
+    aside {
+        display: flex;
+        width: 28%;
+    }
+    article {
+        width: 48%;
+    }
+}
+
+/* stopklods */
+
+@media screen and (min-width: 1328px) {
+    .container {
+        width: 1328px;
+        margin: 0 auto;
+    }
+}
