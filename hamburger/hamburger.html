@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgermenu</title>
+    <!-- ref til mit eget stylesheet -->
+    <link rel="stylesheet" href="hamburgerstyle.css">
+    <!-- ref til FontAwesomes stylesheet (så jeg kan bruge deres ikoner) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Logo</a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#">Forside</a>
+            <a href="#">Nyheder</a>
+            <a href="#">Om mig</a>
+            <a href="#">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <article>
+        <h1>Min hjemmeside</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque illo mollitia ea cum deleniti suscipit voluptatibus accusamus id, quae inventore pariatur ex! Et eius, quidem animi quibusdam quaerat laborum repudiandae assumenda mollitia minima id dolor obcaecati veritatis, possimus atque voluptas debitis quas voluptatem inventore fuga officia accusantium numquam. Voluptate, nemo!</p>
+    </article>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+</body>
+</html>
